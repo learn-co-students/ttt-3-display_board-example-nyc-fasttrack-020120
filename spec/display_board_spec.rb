@@ -1,3 +1,4 @@
+require_relative './spec_helper'
 require_relative '../lib/display_board'
 
 describe '/lib/display_board.rb' do

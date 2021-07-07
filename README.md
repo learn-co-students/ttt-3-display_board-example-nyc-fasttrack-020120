@@ -60,7 +60,7 @@ Our `display_board` method should print out a board that looks exactly like:
 
 1. Each cell is presented by a string with 3 spaces: <pre>"   "</pre>
 2. Each row has 3 cells, the middle separated by 2 `|` (pipe) characters: <pre>   |   |   </pre>
-3. There are 3 rows, with 2 separating lines of 11 `-` (dash) characters: `-----------` 
+3. There are 3 rows, with 2 separating lines of 11 `-` (dash) characters: `-----------`
 
 In Ruby, it would be written as:
 ```
@@ -106,3 +106,9 @@ A Tic Tac Toe Board
 And you can quickly see what it does!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ttt-3-display_board-example'>Display Tic Tac Board Example</a> on Learn.co and start learning to code for free.</p>
+
+puts "     |     |     |"
+puts "---------------------"
+puts "     |     |     |"
+puts "---------------------"
+puts "     |     |     |"
